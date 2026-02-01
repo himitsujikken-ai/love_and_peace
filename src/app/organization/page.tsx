@@ -3,10 +3,10 @@ import React from "react";
 
 export default function OrganizationPage() {
     const boardMembers = [
-        { role: "理事長", name: "{{ 氏名 }}" },
-        { role: "理事", name: "{{ 氏名 }}, {{ 氏名 }}" }, // Handling multiple names as string for simplicity
-        { role: "評議員", name: "{{ 氏名 }}, {{ 氏名 }}, {{ 氏名 }}" },
-        { role: "監事", name: "{{ 氏名 }}" },
+        { role: "理事長", name: "【 氏名 】" },
+        { role: "理事", name: "【 氏名 】, 【 氏名 】" }, // Handling multiple names as string for simplicity
+        { role: "評議員", name: "【 氏名 】, 【 氏名 】, 【 氏名 】" },
+        { role: "監事", name: "【 氏名 】" },
     ];
 
     return (
@@ -31,7 +31,7 @@ export default function OrganizationPage() {
                                 <td className="py-6 px-6 md:px-10">
                                     <div className="mb-2">
                                         <span className="font-bold text-xs bg-primary text-white px-2 py-1 rounded mr-2">本部</span>
-                                        東京都中央区銀座 {'{{ 丁目・番地 }}'}
+                                        東京都中央区銀座 【 丁目・番地 】
                                     </div>
                                     <div>
                                         <span className="font-bold text-xs bg-gray-500 text-white px-2 py-1 rounded mr-2">支部</span>

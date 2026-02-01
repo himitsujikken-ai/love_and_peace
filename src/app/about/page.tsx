@@ -32,7 +32,7 @@ export default function AboutPage() {
                             <div className="w-32 h-32 rounded-full bg-gray-200 shrink-0" /> {/* Avatar Placeholder */}
                             <div className="text-left">
                                 <p className="text-sm text-gray-500 mb-2">設立者・代表理事</p>
-                                <p className="text-xl font-bold text-primary">{{ 氏名 }}</p>
+                                <p className="text-xl font-bold text-primary">【 氏名 】</p>
                                 {/* <img src="/signature.png" alt="Signature" className="h-10 mt-2 opacity-50" /> */}
                             </div>
                         </div>
